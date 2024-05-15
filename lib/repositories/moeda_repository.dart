@@ -9,7 +9,7 @@ class MoedaRepository {
       preco: 164603.00,
     ),
     Moeda(
-      icone: 'images/etherium.png',
+      icone: 'images/ethereum.png',
       nome: 'Ethereum',
       sigla: 'ETH',
       preco: 9716.00,
@@ -27,7 +27,10 @@ class MoedaRepository {
       preco: 6.32,
     ),
     Moeda(
-        icone: 'images/usdc.png', nome: 'USD Coin', sigla: 'USDC', preco: 5.02),
+        icone: 'images/usdcoin.png',
+        nome: 'USD Coin',
+        sigla: 'USDC',
+        preco: 5.02),
     Moeda(
         icone: 'images/litecoin.png',
         nome: 'Litecoin',
