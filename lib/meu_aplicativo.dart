@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testeflutter/pages/moedas_page.dart';
+
+import 'pages/home_page.dart';
 
 class MeuAplicativo extends StatelessWidget {
   const MeuAplicativo({super.key});
@@ -10,7 +11,7 @@ class MeuAplicativo extends StatelessWidget {
       title: 'Moedasbase',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo, useMaterial3: false),
-      home: MoedasPage(),
+      home: const HomePage(),
     );
   }
 }

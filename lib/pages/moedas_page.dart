@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:testeflutter/pages/moedas_detalhes_page.dart';
-import 'package:testeflutter/repositories/moeda_repository.dart';
 import 'package:intl/intl.dart';
-import 'package:testeflutter/models/moeda.dart';
+
+import '../models/moeda.dart';
+import '../repositories/moeda_repository.dart';
+import 'moedas_detalhes_page.dart';
 
 class MoedasPage extends StatefulWidget {
   const MoedasPage({super.key});

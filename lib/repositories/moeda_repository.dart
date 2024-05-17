@@ -1,4 +1,4 @@
-import 'package:testeflutter/models/moeda.dart';
+import '../models/moeda.dart';
 
 class MoedaRepository {
   static List<Moeda> tabela = [

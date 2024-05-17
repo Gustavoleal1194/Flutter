@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
-import 'package:testeflutter/models/moeda.dart';
+import '../models/moeda.dart';
 
 class MoedasDetalhesPage extends StatefulWidget {
-  Moeda moeda;
+  final Moeda moeda;
 
-  MoedasDetalhesPage({super.key, required this.moeda});
+  const MoedasDetalhesPage({super.key, required this.moeda});
 
   @override
   State<MoedasDetalhesPage> createState() => _MoedasDetalhesPageState();
